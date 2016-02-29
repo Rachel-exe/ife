@@ -45,5 +45,6 @@ css部分
 .lr{height:20px;margin-left: 50px;background-color: blue;}
 ```
 这种情况因为给两个div都设置了display，使他们都成为行内元素（内联元素），所以绝对定位没作用，并且右div根据前一个元素来定位
+P.s.设置了绝对定位的Div，其宽度会有包裹性，其宽度会自适应于内容，没设置定位和宽度的div，其宽度会自适应于屏幕宽度。
 
 [更全面的绝对定位描述](http://www.w3help.org/zh-cn/kb/012/)
